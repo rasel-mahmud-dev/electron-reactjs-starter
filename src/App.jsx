@@ -18,10 +18,13 @@ function App() {
 
   return (
     <div className="App">
-      
-      <h1>Electron with ReactJS</h1>
+      <div className="container" > 
 
-      <Button>Antd Button</Button>
+        <img style={{width: 80}} src="/electron-vite.svg"></img>
+
+        <h1>Electron with ReactJS</h1>
+        <Button>Antd Button</Button>
+      </div>
   
     </div>
   )
